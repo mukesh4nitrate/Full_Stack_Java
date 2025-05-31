@@ -33,7 +33,7 @@ public class UserInterface{
 
                     Employee emp = new Employee(id, name, salary, dept);
                     service.addEmployee(emp);
-                    System.out.println("✅ Employee added!");
+                    System.out.println("Employee added!");
                     break;
 
                 case 2:
@@ -50,7 +50,7 @@ public class UserInterface{
                     if (found != null) {
                         System.out.println(found);
                     } else {
-                        System.out.println("❌ Employee not found.");
+                        System.out.println(" Employee not found.");
                     }
                     break;
 
@@ -59,7 +59,7 @@ public class UserInterface{
                     return;
 
                 default:
-                    System.out.println("❌ Invalid option. Try again.");
+                    System.out.println("Invalid option. Try again.");
             }
         }
     }
