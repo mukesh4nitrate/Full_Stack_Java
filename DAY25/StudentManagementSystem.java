@@ -172,17 +172,17 @@ public class StudentManagementSystem {
 		        if (existStudent != null) {
 		            System.out.println(existStudent);
 		        } else {
-		            System.out.println("❌ Student Not Found");
+		            System.out.println("Student Not Found");
 		        }
 		    } else if (key == 4) {
 		        ll = service.putStudent(ll);
 		    } else if (key == 5) {
 		        ll = service.deleteStudent(ll);
 		    } else if (key == 6) {
-		        System.out.println("✅ Exiting Program. Goodbye!");
+		        System.out.println("Exiting Program. Goodbye!");
 		        break;
 		    } else {
-		        System.out.println("❌ Invalid choice. Try again.");
+		        System.out.println("Invalid choice. Try again.");
 		    }
 		}
 	}
